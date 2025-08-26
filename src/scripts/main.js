@@ -31,7 +31,7 @@ promise1
   .catch(() => {
     const div = document.createElement('div');
 
-    div.className = 'error-message';
+    div.className = 'message error-message';
     div.textContent = 'Promise was rejected!';
     document.body.appendChild(div);
   });
@@ -47,7 +47,7 @@ promise2
   .catch(() => {
     const div = document.createElement('div');
 
-    div.className = 'error-message';
+    div.className = 'message error-message';
     div.textContent = 'Promise was rejected!';
     document.body.appendChild(div);
   });
